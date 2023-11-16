@@ -169,7 +169,7 @@ def main():
                                  for task_data in tasks_data]
             report = report_manager.create_report(user, tasks)
             report_manager.save_report(user.username, report)
-            logger.info(f"Отчёт для {user.name} создан и сохранен")
+            print(f"Отчёт для {user.name} создан и сохранен")
 
 
 if __name__ == "__main__":
